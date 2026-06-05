@@ -1,0 +1,8 @@
+name: comsol
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - MPh==1.3.1

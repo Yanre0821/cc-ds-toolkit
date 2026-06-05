@@ -1,0 +1,48 @@
+# === API Keys & Secrets ===
+settings.json
+*.env
+.env.*
+*secret*
+*api_key*
+
+# === COMSOL Models (too large) ===
+*.mph
+*.mph.lock
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+.venv-*/
+venv/
+
+# === Node ===
+node_modules/
+package-lock.json
+bun.lock
+
+# === IDE & Editors ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === OS ===
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# === Logs & Temp ===
+logs/
+*.log
+*.tmp
+temp/
+
+# === Claude Code internal ===
+.claude/
+.cc-switch/
+.codex/
