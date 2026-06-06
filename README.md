@@ -23,7 +23,9 @@
 | 做 PPT / 处理 Word | [`skills/pptx/`](skills/pptx/) |
 | 启动 AI 团队协作 | [`skills/team/`](skills/team/) |
 | 去除 AI 写作痕迹 | [`skills/humanizer-zh/`](skills/humanizer-zh/) |
+| 照片/线稿转 3D 模型 | [`skills/photo-to-3d/`](skills/photo-to-3d/) |
 | 批量处理办公文档 | [`tools/office-scripts/`](tools/office-scripts/) |
+| Blender MCP 辅助函数 | [`tools/blender-mcp-helpers/`](tools/blender-mcp-helpers/) |
 | 看实战教训 | [`docs/lessons-learned.md`](docs/lessons-learned.md) |
 
 ## 目录结构 / Structure
@@ -36,11 +38,16 @@ cc-ds-toolkit/
 │   ├── pptx/                #   学术/答辩 PPT 生成
 │   ├── team/                #   多角色 AI 团队
 │   ├── frontend-slides/     #   Web 幻灯片
-│   └── humanizer-zh/        #   中文去 AI 味
+│   ├── humanizer-zh/        #   中文去 AI 味
+│   └── photo-to-3d/         #   照片/线稿转 3D 建模
 ├── tools/                   # 独立工具
 │   ├── vibe-simulation/     #   COMSOL CLI 工作流
-│   └── office-scripts/      #   DOCX/PPT 批量处理
+│   ├── office-scripts/      #   DOCX/PPT 批量处理
+│   └── blender-mcp-helpers/ #   Blender MCP Python 辅助函数
 ├── docs/                    # 文档
+│   ├── setup-cc-ds.md
+│   ├── lessons-learned.md   #   实战经验教训
+│   └── photo-to-3d-workflow.md
 └── .gitignore
 ```
 
@@ -67,6 +74,7 @@ cc-ds-toolkit/
 | 食品安全主题班会 | PPTX | 内容→结构化PPT生成 |
 | 环形喷泉答辩 | PPTX + Office Scripts | Word→PPT批量转换+排版 |
 | 转动惯量数据分析 | Python 拟合 | 16组实验数据最小二乘拟合 |
+| 超声波探伤装置 3D 重建 | Photo-to-3D + Blender MCP | 7 张实拍 + 5 张线稿 → 67 部件 3D 模型 |
 
 ## License
 
